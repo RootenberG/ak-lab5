@@ -1,0 +1,1 @@
+cmd_/home/user/repos/mymod/hello.ko := ccache arm-none-eabi-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/user/repos/mymod/hello.ko /home/user/repos/mymod/hello.o /home/user/repos/mymod/hello.mod.o ;  true
